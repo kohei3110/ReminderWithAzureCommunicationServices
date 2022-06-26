@@ -1,6 +1,7 @@
 {
     "id": "1",
     "name": "資料作成",
+    "category": "work",
     "description": "xxx株式会社向けプレゼン用資料作成",
     "isComplete": false,
     "assignees": [

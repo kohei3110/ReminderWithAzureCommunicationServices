@@ -8,7 +8,7 @@ module.exports = async function (context, req) {
     const emailContent = {
         subject: "【リマインダー】未完了のタスクがあります",
         plainText: "このメールは、タスクのリマインダーです。",
-        html: "<html><head><title>タスクリマインダー！</title></head><body><h2>未完了タスク一覧</h2><h3>未完了のタスクは以下の通りです。</h3><li>" + req.body.title +  "</li></body></html>",
+        html: "<html><head><title>タスクリマインダー！</title></head><body><h2>未完了タスク一覧</h2><h3>未完了のタスクは以下の通りです。</h3><li>" + req.body.name +  "</li></body></html>",
     };
     const toRecipients = {
         to: req.body.recepients

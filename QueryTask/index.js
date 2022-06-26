@@ -25,7 +25,7 @@ module.exports = async function (context) {
         items.forEach(item => {
             axios.post(process.env["SENDER_API_ENDPOINT"] + process.env["SENDER_API_PATH"], {
                 "recepients": item.assignees,
-                "title": item.name
+                "name": item.name
             })
         });
     } catch (err) {

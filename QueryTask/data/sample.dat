@@ -1,0 +1,12 @@
+{
+    "id": "1",
+    "name": "資料作成",
+    "description": "xxx株式会社向けプレゼン用資料作成",
+    "isComplete": false,
+    "assignees": [
+        {
+            "user": "Hanako Yamada",
+            "email": "xxxx.xxxxx@gmail.com"
+        }
+    ]
+}

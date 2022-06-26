@@ -26,3 +26,9 @@
 | `COMMUNICATION_SERVICES_CONNECTION_STRING` | Azure Communication Services connection endpoint. |
 
 Refs: [Configure an App Service app](https://docs.microsoft.com/en-us/azure/app-service/configure-common?tabs=portal)
+
+### Create Email Communication Service resource
+
+As of June 26th 2022, Email Communication Service resource is not supported in ARM Template. You have to create this using Azure Portal.
+
+Refs: [Quickstart - Create and manage Email Communication Service resource in Azure Communication Service](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/email/create-email-communication-resource)

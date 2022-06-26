@@ -2,9 +2,9 @@ const { EmailClient } = require("@azure/communication-email");
 
 module.exports = async function (context, req) {
 
-    const connectionString = process.env["communicationServicesConnectionString"]
+    const connectionString = process.env["COMMUNICATION_SERVICES_CONNECTION_STRING"]
     const client = new EmailClient(connectionString);
-    const sender = process.env["emailSender"]
+    const sender = process.env["EMAIL_SENDER"]
     const emailContent = {
         subject: "【リマインダー】未完了のタスクがあります",
         plainText: "このメールは、タスクのリマインダーです。",
